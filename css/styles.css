@@ -61,7 +61,7 @@ ul{
   width: 1440px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 5px solid tomato;
+  outline: 2px solid tomato;
   padding-top:10px;
   padding-bottom:10px;
 }
@@ -330,5 +330,6 @@ text-transform: uppercase;
 }
 .footer-container
 {
+  box-sizing: border-box;;
  padding: 100px 1020px 100px 156px;
 }
