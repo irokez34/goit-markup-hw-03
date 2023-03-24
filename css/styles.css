@@ -65,6 +65,11 @@ ul{
   padding-top:10px;
   padding-bottom:10px;
 }
+.top-btn
+{
+  
+  display: flex;
+}
 
 .address-list-item {
   font-weight: 400;
@@ -186,18 +191,18 @@ font-style: normal;
   background-color: #2e2f42;
   width: 1440px;
 height: 600px;
-display: flex;
-align-items: center;
-box-sizing: border-box;
+
 }
 
 
 .top-section-head {
-
+  padding: 180px 472px 48px  ;
+  text-align: center;
+width: 400px;
+height: 120px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  margin: 188px 472px 292px;
   letter-spacing: 0.02em;
   color: #FFFFFF;
 }
@@ -211,17 +216,21 @@ color: var(--nav-color);
 }
 
 .main-btn {
-  flex-direction: row;
+  padding: 16px 32px;
+  margin:48px 636px 188px;
   font-family: inherit;
   background: #4D5AE5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
+  white-space: nowrap;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #FFFFFF;
   cursor: pointer;
+  align-items: center;
+  min-width: 150px ;
+ 
 }
 .main-btn:is(:hover, :focus)
 {
@@ -248,10 +257,28 @@ color: #2E2F42;
 
 
 /* --------------------------------------------------------BOTTOM------------------------------------------------------- */
+
+
 .bottom-section
 {
-  display: flex;
+  width: 1440px;
+  height: 732px;
   background: #F4F4FD;
+}
+.bot-section-head
+{
+  white-space: nowrap;
+
+  padding: 120px 639px 72px 639px;
+
+
+}
+.main-bot-section
+{
+  display: flex;
+  gap: 24px;
+ margin-left: 156px;
+ margin-right: 156px;
 }
 .section-bot-list
 {
@@ -300,4 +327,8 @@ text-transform: uppercase;
 .footer-logo-item
 {
   COLOR: #f4f4fd
+}
+.footer-container
+{
+ padding: 100px 1020px 100px 156px;
 }
