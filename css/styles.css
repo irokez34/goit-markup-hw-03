@@ -1,3 +1,4 @@
+
 :root {
   --header-background-color: rgb(255, 255, 255);
   --logo-color: #4D5AE5;
@@ -26,11 +27,13 @@ h1,h2,h3,h4,h5,h6,p
 margin: 0;
 }
 ul{
+  margin: 0;
   padding: 0;
 }
 
 /* -------------------------------------HEADER---------------------------------------- */
 .header {
+  padding: 24px 0;
   background-color: var(--header-background-color);
   border-bottom: 1px solid #E7E9FC;
 }
@@ -121,14 +124,11 @@ ul{
     gap: 24px;
 
 }
-.hero-container
-{   
-  padding-top: 120px;
-  align-items: center;
-  width: 1158px;
-  display: flex;
-  justify-content: space-evenly;
+.main-mid-section
+{
+  padding: 120px 0 0;
 }
+
 .hero-list
 {
   display: flex;
@@ -211,20 +211,17 @@ ul{
   line-height: 1.2;
   letter-spacing: 0.02em;
   color:var(--nav-color);
-    margin-bottom: 8px;
+   
 }
 
 
-.list-object {
-  font-family: 'Roboto';
-font-style: normal;
-  font-weight: 400;
+.list-object {  
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--link-color);
-  width: 264px;
-  height: 72px;
+  text-align: center;
 
 }
 
@@ -232,9 +229,10 @@ font-style: normal;
   margin: 0 auto;
   padding:  188px 0;
   background-color: #2e2f42;
-  
-
-
+  }
+.team
+{
+  padding: 120px 0;
 }
 
 
@@ -251,12 +249,15 @@ font-style: normal;
   color: #FFFFFF;
 }
 .list-hero
-{
+{ 
+  margin-top: 32px;
+  margin-bottom: 8px;
   font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--nav-color);
+text-align: center;
 }
 
 .main-btn {
@@ -339,7 +340,7 @@ justify-content: space-evenly
 }
 .section-list-item
 {
-  
+  padding-bottom: 40px;
   background: #FFFFFF;
 }
 
@@ -363,13 +364,11 @@ text-transform: uppercase;
 {
   COLOR: #f4f4fd
 }
-.footer-container
-{
-  box-sizing: border-box;;
- padding: 100px 0;
-}
+
 .footer
 {
+  padding-top: 100px ;
+  padding-bottom: 100px;
   background-color: var(--nav-color);
 }
 
