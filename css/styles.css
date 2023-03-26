@@ -33,6 +33,7 @@ ul{
 
 /* -------------------------------------HEADER---------------------------------------- */
 .header {
+
   padding: 24px 0;
   background-color: var(--header-background-color);
   border-bottom: 1px solid #E7E9FC;
@@ -112,9 +113,22 @@ ul{
 
 .filter
 {
-  padding-top: 96px;
+  padding: 96px 0;
   justify-content: center;
- 
+}
+.visually-hidden
+{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .filter-list
 {
@@ -133,7 +147,7 @@ ul{
 {
   display: flex;
   gap: 24px;
-  align-items: center;
+  
   font-family: 'Roboto';
   font-style: normal;
   
@@ -201,15 +215,32 @@ ul{
 {
   color:#404BBF;
 }
-
-
-
-
-.main-list-item {
+.result-list-object
+{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.result-item-head
+{
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  margin-bottom: 8px;
   letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+
+.main-list-item {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
   color:var(--nav-color);
    
 }
@@ -381,4 +412,5 @@ text-transform: uppercase;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #F4F4FD;
+  
 }
