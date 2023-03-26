@@ -327,9 +327,26 @@ text-transform: capitalize;
 color: #2E2F42;
 }
 
-
-
-
+.team-list-hero
+{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height:1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  margin-top: 32px ;
+}
+.team-list-object
+{
+font-size: 16px;
+line-height:1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: #434455;
+}
 
 
 
