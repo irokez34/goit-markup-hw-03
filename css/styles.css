@@ -252,7 +252,7 @@ letter-spacing: 0.02em;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--link-color);
-  text-align: center;
+ 
 
 }
 
@@ -288,7 +288,6 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--nav-color);
-text-align: center;
 }
 
 .main-btn {
